@@ -1,21 +1,21 @@
 
 # Azure client id used to create resources
-azure_client_id = ""
+#azure_client_id = ""
 
 # Client secret used to authenticate with Azure apis
-azure_client_secret = ""
+#azure_client_secret = ""
 
 # Azure subscription id under which resources will be provisioned
-azure_subscription_id = ""
+#azure_subscription_id = ""
 
 # Azure tenant id used to create resources
-azure_tenant_id = ""
+#azure_tenant_id = ""
 
 # Admin password to use for Rancher server bootstrap, min. 12 characters
 rancher_server_admin_password = ""
 
 # Admin password to use for the Windows VM
-windows_admin_password = ""
+#windows_admin_password = ""
 
 # Add a windows node to the workload cluster
 add_windows_node = false
@@ -24,22 +24,22 @@ add_windows_node = false
 azure_location = "East US"
 
 # Version of cert-manager to install alongside Rancher (format: 0.0.0)
-cert_manager_version = "1.11.0"
+cert_manager_version = "1.15.1"
 
 # Instance type used for all linux virtual machines
 instance_type = "Standard_DS2_v2"
 
 # Prefix added to names of all resources
-prefix = "quickstart"
+prefix = "rancher"
 
 # The helm repository, where the Rancher helm chart is installed from
 rancher_helm_repository = "https://releases.rancher.com/server-charts/latest"
 
 # Kubernetes version to use for Rancher server cluster
-rancher_kubernetes_version = "v1.24.14+k3s1"
+rancher_kubernetes_version = "v1.28.11+k3s1"
 
 # Rancher server version (format: v0.0.0)
-rancher_version = "2.7.9"
+rancher_version = "2.8.5"
 
 # Kubernetes version to use for managed workload cluster
-workload_kubernetes_version = "v1.24.14+rke2r1"
+workload_kubernetes_version = "v1.28.11+k3s1"
